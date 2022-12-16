@@ -1,0 +1,40 @@
+.footer {
+    background-color: darksalmon;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.listForm {
+    background-color: darksalmon;
+    list-style: none;
+    height: 150px;
+    width: 250px;
+}
+
+li {
+    padding: 5px;
+}
+
+.table{
+    border: solid 1px darkgreen;
+    
+}
+
+.table th{
+    background-color: darksalmon;
+}
+
+.listFormReg {
+    background-color: darksalmon;
+    list-style: none;
+    height: 180px;
+    width: 250px;
+}
+body{
+    font-weight: bold;
+}
+nav{
+    background-color: darksalmon;
+    border-bottom: solid 1px darkgreen;
+}
+
