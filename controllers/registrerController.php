@@ -39,6 +39,7 @@ class RegistrerController
         }
         $monto = $_POST['monto'];
         $tipoVenta = $_POST['tipoVenta'];
+        date_default_timezone_set('America/Argentina/Buenos_Aires');
         $fecha = date('Y/m/d');
 
         $this->registrerModel->agregarVenta($monto, $tipoVenta, $fecha);
